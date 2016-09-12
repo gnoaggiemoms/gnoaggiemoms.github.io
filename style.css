@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran);
+
+
+/*Base parent styles*/
+
+body {
+    background-color: rgb(61,10,10);
+}
+
+#all-contents {
+    background-color: rgb(255,245,245);
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/*Navigation bar styles*/
+.logo {
+    width: 120px;
+    display: block;
+}
+
+img {
+    width: 150px;
+    
+}
+
+nav {
+    color: rgb(255,245,245);
+    background-color: rgb(61,10,10);
+    margin: 0 auto;
+    display: flex;
+    /*padding: 10px;*/
+    /*border-radius: 20px;*/
+}
+
+nav header {
+    margin: 0 auto;
+}
+
+#navbar {
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+/*Changes some default settings of the bootstrap nav-pills*/
+.nav-pills > li > a {
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: rgb(255,245,245);
+    background-color: rgb(161,100,100);
+}
+
+a {
+    color: rgb(61,10,10);
+}
+
+#header-text {
+    text-align: center;
+    font-family: 'Coming Soon', bolder;
+}
+
+#main-content {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    padding: 40px;
+    border-radius: 20px
+}
+
+/*Styles for table on list.html*/
+#organo-coffee-list {
+    background-color: rgb(161,100,100);
+    color: rgb(225,215,215);
+    border-radius: 10px;
+    font-size:19px;
+    
+}
+
+#regular-coffee-list {
+ /*background-color: rgb(255,255,255);*/
+ color: rgb(0,0,0);
+ border-radius: 10px;
+ font-size:18px;
+ 
+}
+
+/*#coffee-table th {*/
+/*    text-align: center;*/
+    
+/*}*/
+.coffee-header {
+    font-size:30px;
+    text-align:center;
+    
+}
+
+#coffee-title {
+    text-align:center;
+    font-size:30px;
+    font-weight:900;
+    color: black;
+}
+
+#store {
+    border: 10px;
+    border-radius: 5px;
+}
+.product {
+    background-color: rgb(255,255,255);
+    color: black;
+    font-size: 12px;
+    min-height: 350px;
+}
+
+#styledimg img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 44px;
+}
+
+#coffeeimg img {
+    display: block;
+    width: 100%;
+    height:100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top:1px;
+
+}
+
+
